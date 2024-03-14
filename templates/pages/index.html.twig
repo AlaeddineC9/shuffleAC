@@ -1,0 +1,202 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/about.html.twig">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ path('contact') }}">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+   <div class="container position-relative">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 pt-24">
+              <div class="mw-xl mw-lg-2xl mx-auto mx-lg-0"><a class="btn d-inline-flex px-2 py-1 mb-6 align-items-center btn-success-light rounded-pill" href="#"><span class="me-1 fw-semibold">👋 We are hiring. View open roles</span>
+                  <svg width="15" height="15" viewbox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.66667 3.41675L12.75 7.50008M12.75 7.50008L8.66667 11.5834M12.75 7.50008L2.25 7.50008" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg></a>
+                <h1 class="h2 mb-6">Discover mentors that helps you grow</h1>
+                <p class="mw-lg fs-7 mb-10">Get the best-in-class group mentoring plans and professional benefits for your team.</p>
+                <div class="d-sm-flex align-items-center mb-24"><a class="btn d-block d-sm-inline-block mb-4 mb-sm-0 me-sm-6 btn-primary" href="#">Join Free for 30 Days</a><a class="btn d-block d-sm-inline-block btn-outline-light-dark" href="#">
+                    <svg width="19" height="18" viewbox="0 0 19 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M2.75 3.75C2.75 2.92157 3.42157 2.25 4.25 2.25H6.70943C7.03225 2.25 7.31886 2.45657 7.42094 2.76283L8.5443 6.13291C8.66233 6.48699 8.50203 6.87398 8.1682 7.0409L6.47525 7.88737C7.30194 9.72091 8.77909 11.1981 10.6126 12.0247L11.4591 10.3318C11.626 9.99796 12.013 9.83767 12.3671 9.9557L15.7372 11.0791C16.0434 11.1811 16.25 11.4677 16.25 11.7906V14.25C16.25 15.0784 15.5784 15.75 14.75 15.75H14C7.7868 15.75 2.75 10.7132 2.75 4.5V3.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg><span class="ms-1 text-black fw-medium">Book a call</span></a></div>
+                <p class="fs-8 fw-semibold text-secondary mb-6">TRUSTED AND LOVED BY 100+ TECH FIRST TEAMS</p>
+                <div class="d-flex flex-column flex-sm-row align-items-center"><img class="mb-5 mb-sm-0 me-sm-6" src="flaro-assets/logos/brands/brand.png" alt=""><img class="mb-5 mb-sm-0 me-sm-6" src="flaro-assets/logos/brands/brand2.png" alt=""><img src="flaro-assets/logos/brands/brand3.png" alt=""></div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 pt-24">
+              <div class="mw-2xl mx-auto"><img class="img-fluid" src="flaro-assets/images/headers/header.png" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="d-none navbar-menu position-fixed top-0 start-0 bottom-0 w-75 mw-xs" style="z-index: 9999;">
+          <div class="navbar-close navbar-backdrop position-fixed top-0 start-0 end-0 bottom-0 bg-dark" style="opacity: 75%;"></div>
+          <nav class="position-relative h-100 w-100 d-flex flex-column justify-content-between py-8 px-8 bg-white overflow-auto">
+            <div class="d-flex align-items-center"><a class="me-auto h4 mb-0 text-decoration-none" href="#"><img class="img-fluid" src="flaro-assets/logos/flaro-logo-black.svg" alt=""></a><a class="navbar-close" href="#">
+                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></a></div>
+            <div class="py-16">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Features</a></li>
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Solutions</a></li>
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div><a class="btn w-100 fw-medium" href="#">Login</a><a class="btn w-100 btn-primary" href="#">Sign in</a></div>
+          </nav>
+        </div>
+          <section class="py-12 py-sm-24 bg-info-light">
+        <div class="container">
+          <div class="mw-xs px-md-0 mw-md-md mw-lg-2xl mx-auto mb-14">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white.png" alt=""></div>
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white2.png" alt=""></div>
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white3.png" alt=""></div>
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white4.png" alt=""></div>
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white5.png" alt=""></div>
+              <div class="col-4 col-lg-2"><img class="img-fluid d-block mx-auto" src="flaro-assets/logos/brands/logo-square-white6.png" alt=""></div>
+            </div>
+          </div>
+          <div class="mw-2xl mx-auto text-center">
+            <h2 class="mb-6">Loved by the incredible community</h2>
+            <p class="mw-lg mx-auto fs-7 text-secondary mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum.</p>
+          </div>
+        </div>
+      </section>
+      <section class="py-12 py-sm-24 position-relative overflow-hidden">
+        <div class="container">
+          <div class="mw-7xl align-items-center">
+            <div class="row mx-auto">
+              <div class="col-lg-5 col-xl-4 order-last order-lg-first"><img class="d-block w-100 mw-xl mx-auto" src="flaro-assets/images/cta/people.png" alt=""></div>
+              <div class="col-lg-7 col-xl-8 mb-16 mb-lg-0 position-relative"><img class="position-absolute bottom-0 mb-12 end-0 me-n40" src="flaro-assets/images/cta/gradient3.svg" alt="">
+                <div class="mw-xl mx-auto me-xl-0 position-relative">
+                  <h1 class="h2 mb-10">Join &amp; build your startup successful</h1>
+                  <div class="mw-md mb-10">
+                    <div class="d-flex mb-5">
+                      <div class="me-3">
+                        <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="10" cy="10" r="10" fill="#4F46E5"></circle>
+                          <path d="M6 10.6667L8.66667 13.3333L14 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </div>
+                      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat enim.</p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="me-3">
+                        <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle cx="10" cy="10" r="10" fill="#4F46E5"></circle>
+                          <path d="M6 10.6667L8.66667 13.3333L14 8" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                      </div>
+                      <p>Mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat enim est sit arina.</p>
+                    </div>
+                  </div>
+                  <div class="input-group mw-xl mb-4 p-2 bg-white border border-dark rounded-4">
+                    <input class="form-control border-0 bg-transparent" type="text" placeholder="Enter email to get started">
+                    <button class="btn btn-primary rounded-3 fs-9 fw-bold text-uppercase" type="button">Join for free</button>
+                  </div>
+                  <div class="d-flex ps-2 align-items-center">
+                    <svg width="14" height="16" viewbox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 10.25V11.75M2.5 14.75H11.5C12.3284 14.75 13 14.0784 13 13.25V8.75C13 7.92157 12.3284 7.25 11.5 7.25H2.5C1.67157 7.25 1 7.92157 1 8.75V13.25C1 14.0784 1.67157 14.75 2.5 14.75ZM10 7.25V4.25C10 2.59315 8.65685 1.25 7 1.25C5.34315 1.25 4 2.59315 4 4.25V7.25H10Z" stroke="#A1A1AA" stroke-width="1.5" stroke-linecap="round"></path>
+                    </svg><span class="ms-2 fs-9 text-secondary mb-0">We don’t share or sell your email address publicly</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+         <section class="py-12 py-sm-24 pb-md-32 position-relative overflow-hidden"><img class="position-absolute top-0 mt-n20 start-0" src="flaro-assets/images/testimonials/gradient.svg" alt=""><img class="position-absolute bottom-0 mb-n20 end-0" src="flaro-assets/images/testimonials/gradient.svg" alt="">
+        <div class="container position-relative">
+          <h1 class="text-center h3 mb-16">Don't just take our word for it</h1>
+          <div class="mw-7xl mx-auto">
+            <div class="row mb-n6">
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Jacob Jones</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">If you haven’t tried out Flaro App yet, I would definitely recommend it for both designers and developers 🤙🏻</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar2.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Wade Warren</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">If you are thinking of a design partner to help you convert more customers, Flaro is a great choice.</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar3.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Bessie Cooper</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">We have built a few web apps using Flaro. It saves us a lot of time, because we don't have to build design features from scratch.</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar4.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Esther Howard</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">Wrike is great to make work visible and collaborative. People can pass tasks off as they complete their parts, allowing you to see the flow of work.</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar5.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Albert Flores</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">Ease of use and efficiency of design tools. The ability for the integrated marketing team to see all aspects of a project.</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-4 mb-6">
+                <div class="d-flex flex-column h-100 p-6 bg-white bg-opacity-25 border rounded-4">
+                  <div class="d-flex align-items-center mb-6">
+                    <div><img src="flaro-assets/images/testimonials/avatar6.png" alt=""></div>
+                    <div class="ps-4">
+                      <h6 class="mb-0">Jerome Bell</h6><span class="fs-9 text-secondary">@brooklysim</span>
+                    </div>
+                  </div>
+                  <p class="mw-md fs-7 pb-6 mb-auto">Very very easy for customer information to get secured if all orders are on one device.</p><span class="fs-9 text-secondary">3 days ago</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      {{ include("pages/footer.html.twig") }}
+{% endblock %}
