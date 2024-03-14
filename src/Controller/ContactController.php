@@ -33,7 +33,7 @@ class ContactController extends AbstractController
             //->bcc('bcc@example.com')
             //->replyTo('fabien@example.com')
             //->priority(Email::PRIORITY_HIGH)
-            ->subject($data['subject'])
+            
             ->text($data['message'])
             ->html(
                 '<p>nouveau message de ' . $data['firstname'] . ' ' . $data['lastname'] . ' :</p>' .
