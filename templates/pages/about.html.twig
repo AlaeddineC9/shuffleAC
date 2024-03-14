@@ -3,9 +3,249 @@
 {% block title %}About Us{% endblock %}
 
 {% block body %}
-    <div class="container">
-        <h1>About Us</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod dolor nec velit accumsan, sit amet volutpat urna mollis. Duis in felis ac velit accumsan rhoncus eget id metus. Fusce aliquam tellus eget turpis laoreet convallis. Donec vel purus vitae turpis lacinia pretium vel nec ligula. Nulla facilisi. Vivamus non augue vel est scelerisque tempor. Vestibulum sit amet dui non eros varius vestibulum. Duis lacinia fermentum neque, id convallis libero faucibus ut. Sed nec sollicitudin purus. Nunc in turpis tortor.</p>
-        <p>Sed vel libero id nisi tincidunt fermentum nec et nunc. Integer nec tincidunt libero, sit amet congue metus. Nulla facilisi. Phasellus tempor, sapien ut viverra ultrices, leo libero posuere elit, sed fringilla metus tortor eget felis. Vivamus id lorem vitae tortor rhoncus faucibus. Sed nec velit est. Nulla facilisi. In hac habitasse platea dictumst. Curabitur tincidunt ligula nec interdum finibus.</p>
+    <div class="">
+        
+      <section class="pb-20">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container"><a class="navbar-brand" href="#"><img class="img-fluid" src="flaro-assets/logos/flaro-logo-black.svg" alt=""></a>
+            <div class="collapse navbar-collapse me-5 justify-content-end">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Solutions</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div class="d-none d-lg-block"><a class="btn btn-primary" href="#">Try 14 Days Free Trial</a></div>
+            <div class="d-lg-none">
+              <button class="btn navbar-burger p-0">
+                <svg class="text-primary" width="51" height="51" viewbox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="56" height="56" rx="28" fill="currentColor"></rect>
+                  <path d="M37 32H19M37 24H19" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+        <div class="container position-relative">
+          
+        </div>
+        <div class="d-none navbar-menu position-fixed top-0 start-0 bottom-0 w-75 mw-xs" style="z-index: 9999;">
+          <div class="navbar-close navbar-backdrop position-fixed top-0 start-0 end-0 bottom-0 bg-dark" style="opacity: 75%;"></div>
+          <nav class="position-relative h-100 w-100 d-flex flex-column justify-content-between py-8 px-8 bg-white overflow-auto">
+            <div class="d-flex align-items-center"><a class="me-auto h4 mb-0 text-decoration-none" href="#"><img class="img-fluid" src="flaro-assets/logos/flaro-logo-black.svg" alt=""></a><a class="navbar-close" href="#">
+                <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M6 18L18 6M6 6L18 18" stroke="#111827" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg></a></div>
+            <div class="py-16">
+              <ul class="nav flex-column">
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Features</a></li>
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Solutions</a></li>
+                <li class="nav-item mb-8"><a class="nav-link text-dark" href="#">Resources</a></li>
+                <li class="nav-item"><a class="nav-link text-dark" href="#">Pricing</a></li>
+              </ul>
+            </div>
+            <div><a class="btn w-100 fw-medium" href="#">Login</a><a class="btn w-100 btn-primary" href="#">Sign in</a></div>
+          </nav>
+        </div>
+      </section>
+        
+      <section class="py-12 py-sm-24 py-md-32">
+        <div class="container">
+          <div class="row align-items-center mw-6xl mx-auto">
+            <div class="col-12 col-md-5 col-lg-6 mb-16 mb-md-0">
+              <div class="position-relative mw-md mx-auto">
+                <div class="position-absolute bottom-0 start-0 w-100 px-12 pb-12 d-flex justify-content-center">
+                  <div class="btn-group" role="group" aria-label="Basic example">
+                    <button class="btn px-8 py-6" type="button" style="background: rgba(255, 255, 255, 0.81); backdrop-filter: blur(4px);">
+                      <svg width="17" height="14" viewbox="0 0 17 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.0405 1.94343C15.439 2.21077 14.804 2.37786 14.1357 2.47812C14.804 2.0771 15.3387 1.44217 15.5726 0.67356C14.9377 1.04115 14.2359 1.3085 13.4673 1.47558C12.8658 0.840649 11.997 0.439636 11.0613 0.439636C9.2567 0.439636 7.78632 1.91001 7.78632 3.71457C7.78632 3.98191 7.81974 4.21584 7.88658 4.44976C5.17974 4.31609 2.74025 3.0128 1.10278 1.00774C0.835443 1.509 0.668354 2.04369 0.668354 2.6452C0.668354 3.78141 1.23646 4.78394 2.13873 5.38546C1.60405 5.35204 1.10278 5.21837 0.634936 4.98444V5.01786C0.634936 6.62191 1.77114 7.95862 3.27494 8.25938C3.00759 8.32621 2.70683 8.35963 2.40607 8.35963C2.20557 8.35963 1.97164 8.32621 1.77114 8.2928C2.20557 9.59609 3.40861 10.5652 4.84557 10.5652C3.70937 11.4341 2.30582 11.9687 0.768607 11.9687C0.501266 11.9687 0.233924 11.9687 0 11.9353C1.47038 12.871 3.17468 13.4057 5.04607 13.4057C11.0947 13.4057 14.403 8.39305 14.403 4.04875C14.403 3.91508 14.403 3.74799 14.403 3.61432C15.038 3.17989 15.6061 2.61179 16.0405 1.94343Z" fill="black"></path>
+                      </svg>
+                    </button>
+                    <button class="btn px-8 py-6" type="button" style="background: rgba(255, 255, 255, 0.81); backdrop-filter: blur(4px);">
+                      <svg width="10" height="19" viewbox="0 0 10 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.72336 18.3242V10.3519H0.0405273V7.24494H2.72336V4.95365C2.72336 2.29463 4.3474 0.846741 6.71944 0.846741C7.85566 0.846741 8.83219 0.931335 9.11678 0.969146V3.74798L7.47165 3.74873C6.1816 3.74873 5.93182 4.36174 5.93182 5.26129V7.24494H9.00845L8.60786 10.3519H5.93182V18.3242H2.72336Z" fill="black"></path>
+                      </svg>
+                    </button>
+                    <button class="btn px-8 py-6" type="button" style="background: rgba(255, 255, 255, 0.81); backdrop-filter: blur(4px);">
+                      <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.84125 2.30226C12.4377 2.30226 12.7452 2.31198 13.7709 2.35875C14.3876 2.3663 14.9985 2.47954 15.5769 2.69356C15.9964 2.85533 16.3773 3.10314 16.6952 3.42105C17.0131 3.73895 17.2609 4.1199 17.4227 4.53937C17.6367 5.1178 17.75 5.72865 17.7575 6.34536C17.8038 7.37107 17.814 7.67855 17.814 10.275C17.814 12.8715 17.8043 13.1789 17.7575 14.2046C17.75 14.8214 17.6367 15.4322 17.4227 16.0106C17.2609 16.4301 17.0131 16.8111 16.6952 17.129C16.3773 17.4469 15.9964 17.6947 15.5769 17.8564C14.9985 18.0705 14.3876 18.1837 13.7709 18.1912C12.7457 18.2376 12.4382 18.2477 9.84125 18.2477C7.24433 18.2477 6.93685 18.238 5.91161 18.1912C5.2949 18.1837 4.68405 18.0705 4.10562 17.8564C3.68615 17.6947 3.3052 17.4469 2.98729 17.129C2.66939 16.8111 2.42158 16.4301 2.25981 16.0106C2.04579 15.4322 1.93255 14.8214 1.925 14.2046C1.8787 13.1789 1.86851 12.8715 1.86851 10.275C1.86851 7.67855 1.87823 7.37107 1.925 6.34536C1.93255 5.72865 2.04579 5.1178 2.25981 4.53937C2.42158 4.1199 2.66939 3.73895 2.98729 3.42105C3.3052 3.10314 3.68615 2.85533 4.10562 2.69356C4.68405 2.47954 5.2949 2.3663 5.91161 2.35875C6.93732 2.31245 7.2448 2.30226 9.84125 2.30226ZM9.84125 0.549988C7.20173 0.549988 6.86924 0.561102 5.83196 0.608335C5.02484 0.624389 4.22629 0.777209 3.47028 1.0603C2.82174 1.30464 2.23433 1.68756 1.74904 2.18232C1.25382 2.6678 0.870581 3.25554 0.626081 3.90449C0.342994 4.66051 0.190174 5.45906 0.17412 6.26617C0.127813 7.30253 0.116699 7.63502 0.116699 10.2745C0.116699 12.9141 0.127813 13.2465 0.175047 14.2838C0.1911 15.0909 0.343921 15.8895 0.627007 16.6455C0.871236 17.2944 1.25416 17.8821 1.74904 18.3677C2.2346 18.8626 2.82234 19.2455 3.47121 19.4897C4.22722 19.7728 5.02577 19.9256 5.83288 19.9417C6.87017 19.988 7.20127 20 9.84218 20C12.4831 20 12.8142 19.9889 13.8515 19.9417C14.6586 19.9256 15.4571 19.7728 16.2132 19.4897C16.8589 19.2394 17.4454 18.857 17.935 18.3671C18.4246 17.8772 18.8065 17.2905 19.0564 16.6446C19.3395 15.8886 19.4923 15.09 19.5084 14.2829C19.5547 13.2465 19.5658 12.9141 19.5658 10.2745C19.5658 7.63502 19.5547 7.30253 19.5075 6.26524C19.4914 5.45813 19.3386 4.65958 19.0555 3.90357C18.8113 3.2547 18.4283 2.66696 17.9335 2.1814C17.4479 1.68652 16.8602 1.3036 16.2113 1.05937C15.4553 0.776283 14.6567 0.623463 13.8496 0.607409C12.8133 0.561102 12.4808 0.549988 9.84125 0.549988Z" fill="black"></path>
+                        <path d="M9.83852 5.28125C8.85084 5.28125 7.88534 5.57413 7.06412 6.12286C6.24289 6.67158 5.60283 7.4515 5.22486 8.364C4.84689 9.27649 4.748 10.2806 4.94068 11.2493C5.13337 12.218 5.60898 13.1078 6.30738 13.8062C7.00577 14.5046 7.89558 14.9802 8.86428 15.1729C9.83298 15.3656 10.8371 15.2667 11.7496 14.8887C12.6621 14.5107 13.442 13.8707 13.9907 13.0494C14.5394 12.2282 14.8323 11.2627 14.8323 10.275C14.8323 8.9506 14.3062 7.68041 13.3697 6.7439C12.4331 5.80738 11.163 5.28125 9.83852 5.28125ZM9.83852 13.5166C9.19741 13.5166 8.57069 13.3264 8.03763 12.9703C7.50456 12.6141 7.08909 12.1078 6.84375 11.5155C6.5984 10.9232 6.53421 10.2714 6.65929 9.64265C6.78436 9.01386 7.09308 8.43627 7.54642 7.98294C7.99975 7.52961 8.57734 7.22088 9.20613 7.09581C9.83492 6.97073 10.4867 7.03492 11.079 7.28027C11.6713 7.52561 12.1776 7.94108 12.5337 8.47415C12.8899 9.00721 13.08 9.63393 13.08 10.275C13.08 11.1347 12.7385 11.9592 12.1306 12.5671C11.5227 13.175 10.6982 13.5166 9.83852 13.5166Z" fill="black"></path>
+                        <path d="M15.0336 6.25046C15.6781 6.25046 16.2006 5.728 16.2006 5.08351C16.2006 4.43902 15.6781 3.91656 15.0336 3.91656C14.3892 3.91656 13.8667 4.43902 13.8667 5.08351C13.8667 5.728 14.3892 6.25046 15.0336 6.25046Z" fill="black"></path>
+                      </svg>
+                    </button>
+                  </div>
+                </div><img class="d-block w-100" src="flaro-assets/images/team/bg3.png" alt="">
+              </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-6">
+              <div class="mw-sm mx-auto mx-lg-0"><span class="d-block mb-5 text-primary fs-9 fw-semibold text-uppercase">👋 Meet new Flaro</span>
+                <h1 class="h2 mb-8">Ronald Richards</h1>
+                <p class="mb-6">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat.</p>
+                <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit velit risus sit sed massa. Vivamus vel lorem egestas.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-12 py-sm-24 py-md-32">
+        <div class="container">
+          <div class="mw-2xl mx-auto mb-20 text-center">
+            <h2 class="mb-5">The team behind Flaro</h2>
+            <p class="mw-lg mx-auto text-secondary">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+          <div class="row mb-n8 mw-md mw-md-3xl mw-xl-none mx-auto">
+            <div class="col-12 col-md-6 col-xl-3 mb-8">
+              <div class="position-relative rounded-4 overflow-hidden">
+                <div class="position-absolute bottom-0 start-0 p-2 w-100">
+                  <div class="py-4 px-5 rounded-3" style="background: rgba(0, 0, 0, 0.84); backdrop-filter: blur(4px);">
+                    <h6 class="fs-7 text-white mb-1">Theresa Webb</h6>
+      <span class="text-secondary">COO</span>
+                  </div>
+                </div>
+      <img class="d-block w-100" src="flaro-assets/images/team/team.png" alt="" style="height: 435px; object-fit: cover;">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mb-8">
+              <div class="position-relative rounded-4 overflow-hidden">
+                <div class="position-absolute bottom-0 start-0 p-2 w-100">
+                  <div class="py-4 px-5 rounded-3" style="background: rgba(0, 0, 0, 0.84); backdrop-filter: blur(4px);">
+                    <div class="mb-4 pb-4 border-bottom border-secondary">
+                      <h6 class="fs-7 text-white mb-1">Floyd Miles</h6>
+      <span class="text-secondary">CTO</span>
+                    </div>
+      <a class="d-inline-block me-5" href="#">
+                      <svg width="13" height="11" viewbox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.7345 1.28185C12.257 1.4941 11.7529 1.62675 11.2223 1.70634C11.7529 1.38797 12.1774 0.883899 12.3631 0.273702C11.859 0.565535 11.3019 0.777778 10.6917 0.910429C10.2142 0.406353 9.52438 0.0879898 8.78153 0.0879898C7.34889 0.0879898 6.18156 1.25532 6.18156 2.68796C6.18156 2.9002 6.20809 3.08591 6.26115 3.27163C4.1122 3.1655 2.17548 2.13082 0.8755 0.539005C0.663258 0.936959 0.530606 1.36144 0.530606 1.83899C0.530606 2.74102 0.981621 3.53693 1.69794 4.01447C1.27345 3.98794 0.8755 3.88182 0.504076 3.69611V3.72264C0.504076 4.99609 1.40611 6.05731 2.59997 6.29608C2.38773 6.34914 2.14895 6.37567 1.91018 6.37567C1.751 6.37567 1.56529 6.34914 1.40611 6.32261C1.751 7.35729 2.70609 8.12667 3.84689 8.12667C2.94486 8.81646 1.83059 9.24094 0.610197 9.24094C0.397954 9.24094 0.185712 9.24094 0 9.21441C1.16733 9.95726 2.52038 10.3817 4.00608 10.3817C8.80806 10.3817 11.4346 6.4022 11.4346 2.95326C11.4346 2.84714 11.4346 2.71449 11.4346 2.60837C11.9386 2.26347 12.3897 1.81246 12.7345 1.28185Z" fill="white"></path>
+                      </svg></a><a class="d-inline-block me-5" href="#">
+                      <svg width="8" height="14" viewbox="0 0 8 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.86428 13.9048V7.57563H0.734375V5.10902H2.86428V3.28997C2.86428 1.17897 4.1536 0.0294952 6.03676 0.0294952C6.93881 0.0294952 7.71407 0.0966549 7.94001 0.126673V2.33279L6.63394 2.33338C5.60977 2.33338 5.41147 2.82005 5.41147 3.5342V5.10902H7.85401L7.53598 7.57563H5.41147V13.9048H2.86428Z" fill="white"></path>
+                      </svg></a><a class="d-inline-block" href="#">
+                      <svg width="17" height="16" viewbox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8.66026 1.39113C10.7216 1.39113 10.9657 1.39885 11.78 1.43598C12.2696 1.44197 12.7546 1.53187 13.2138 1.70178C13.5468 1.83021 13.8492 2.02695 14.1016 2.27933C14.354 2.53171 14.5507 2.83415 14.6792 3.16717C14.8491 3.62638 14.939 4.11134 14.945 4.60094C14.9817 5.41525 14.9898 5.65936 14.9898 7.72068C14.9898 9.78201 14.9821 10.0261 14.945 10.8404C14.939 11.33 14.8491 11.815 14.6792 12.2742C14.5507 12.6072 14.354 12.9097 14.1016 13.162C13.8492 13.4144 13.5468 13.6112 13.2138 13.7396C12.7546 13.9095 12.2696 13.9994 11.78 14.0054C10.9661 14.0422 10.722 14.0502 8.66026 14.0502C6.59857 14.0502 6.35446 14.0425 5.54052 14.0054C5.05091 13.9994 4.56596 13.9095 4.10674 13.7396C3.77372 13.6112 3.47129 13.4144 3.21891 13.162C2.96652 12.9097 2.76978 12.6072 2.64135 12.2742C2.47145 11.815 2.38154 11.33 2.37555 10.8404C2.33879 10.0261 2.3307 9.78201 2.3307 7.72068C2.3307 5.65936 2.33842 5.41525 2.37555 4.60094C2.38154 4.11134 2.47145 3.62638 2.64135 3.16717C2.76978 2.83415 2.96652 2.53171 3.21891 2.27933C3.47129 2.02695 3.77372 1.83021 4.10674 1.70178C4.56596 1.53187 5.05091 1.44197 5.54052 1.43598C6.35483 1.39922 6.59893 1.39113 8.66026 1.39113ZM8.66026 0C6.56474 0 6.30078 0.00882319 5.47728 0.0463219C4.83651 0.059067 4.20255 0.180391 3.60235 0.405133C3.08747 0.599121 2.62113 0.903117 2.23585 1.29591C1.8427 1.68133 1.53845 2.14794 1.34434 2.66314C1.1196 3.26334 0.998273 3.89731 0.985528 4.53807C0.948765 5.36084 0.939941 5.6248 0.939941 7.72032C0.939941 9.81583 0.948765 10.0798 0.986263 10.9033C0.999008 11.5441 1.12033 12.178 1.34507 12.7782C1.53897 13.2934 1.84297 13.76 2.23585 14.1455C2.62134 14.5383 3.08795 14.8423 3.60308 15.0362C4.20328 15.261 4.83725 15.3823 5.47802 15.395C6.30152 15.4318 6.56438 15.4414 8.66099 15.4414C10.7576 15.4414 11.0205 15.4325 11.844 15.395C12.4847 15.3823 13.1187 15.261 13.7189 15.0362C14.2316 14.8375 14.6972 14.534 15.0859 14.145C15.4745 13.7561 15.7778 13.2903 15.9762 12.7775C16.2009 12.1773 16.3222 11.5433 16.335 10.9026C16.3718 10.0798 16.3806 9.81583 16.3806 7.72032C16.3806 5.6248 16.3718 5.36084 16.3343 4.53734C16.3215 3.89657 16.2002 3.2626 15.9754 2.66241C15.7816 2.14727 15.4775 1.68067 15.0847 1.29517C14.6992 0.902292 14.2326 0.598291 13.7174 0.404397C13.1172 0.179656 12.4833 0.0583318 11.8425 0.0455867C11.0197 0.00882324 10.7558 0 8.66026 0Z" fill="white"></path>
+                        <path d="M8.65842 3.75616C7.8743 3.75616 7.10779 3.98868 6.45582 4.42431C5.80385 4.85995 5.2957 5.47913 4.99563 6.20356C4.69557 6.92799 4.61705 7.72513 4.77003 8.49418C4.923 9.26323 5.30059 9.96965 5.85504 10.5241C6.4095 11.0786 7.11592 11.4561 7.88497 11.6091C8.65402 11.7621 9.45116 11.6836 10.1756 11.3835C10.9 11.0834 11.5192 10.5753 11.9548 9.92333C12.3905 9.27136 12.623 8.50485 12.623 7.72073C12.623 6.66926 12.2053 5.66086 11.4618 4.91736C10.7183 4.17386 9.70989 3.75616 8.65842 3.75616ZM8.65842 10.2942C8.14944 10.2942 7.65189 10.1432 7.22869 9.86047C6.80549 9.57769 6.47565 9.17578 6.28087 8.70554C6.08609 8.23531 6.03513 7.71788 6.13442 7.21868C6.23372 6.71948 6.47882 6.26094 6.83872 5.90104C7.19862 5.54113 7.65716 5.29604 8.15636 5.19674C8.65556 5.09744 9.17299 5.14841 9.64323 5.34318C10.1135 5.53796 10.5154 5.86781 10.7982 6.291C11.0809 6.7142 11.2319 7.21175 11.2319 7.72073C11.2319 8.40325 10.9607 9.05781 10.4781 9.54043C9.9955 10.023 9.34094 10.2942 8.65842 10.2942Z" fill="white"></path>
+                        <path d="M12.7829 4.52561C13.2945 4.52561 13.7093 4.11083 13.7093 3.59917C13.7093 3.08751 13.2945 2.67273 12.7829 2.67273C12.2712 2.67273 11.8564 3.08751 11.8564 3.59917C11.8564 4.11083 12.2712 4.52561 12.7829 4.52561Z" fill="white"></path>
+                      </svg></a>
+                  </div>
+                </div>
+      <img class="d-block w-100" src="flaro-assets/images/team/team2.png" alt="" style="height: 435px; object-fit: cover;">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mb-8">
+              <div class="position-relative rounded-4 overflow-hidden">
+                <div class="position-absolute bottom-0 start-0 p-2 w-100">
+                  <div class="py-4 px-5 rounded-3" style="background: rgba(0, 0, 0, 0.84); backdrop-filter: blur(4px);">
+                    <h6 class="fs-7 text-white mb-1">Devon Lane</h6>
+      <span class="text-secondary">Marketing Manager</span>
+                  </div>
+                </div>
+      <img class="d-block w-100" src="flaro-assets/images/team/team3.png" alt="" style="height: 435px; object-fit: cover;">
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3 mb-8">
+              <div class="position-relative rounded-4 overflow-hidden">
+                <div class="position-absolute bottom-0 start-0 p-2 w-100">
+                  <div class="py-4 px-5 rounded-3" style="background: rgba(0, 0, 0, 0.84); backdrop-filter: blur(4px);">
+                    <h6 class="fs-7 text-white mb-1">Jane Cooper</h6>
+      <span class="text-secondary">Business Representative</span>
+                  </div>
+                </div>
+      <img class="d-block w-100" src="flaro-assets/images/team/team4.png" alt="" style="height: 435px; object-fit: cover;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-12 py-sm-24 py-md-32 position-relative overflow-hidden">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-xl-6 mb-20 mb-lg-0">
+              <div class="mw-lg mx-auto">
+                <h3 class="mb-3">Get Latest Updates</h3>
+                <p class="mw-md text-secondary mb-8">Lorem ipsum dolor sit amet, to the  consectr adipiscing elit. Volutpat tempor to the condimentum vitae purus.</p>
+                <div class="input-group mw-xl mb-3 p-2 bg-white border border-secondary-light rounded-3">
+                  <input class="form-control border-0 bg-transparent" type="text" placeholder="Email address">
+                  <button class="btn btn-primary rounded-3 shadow" type="button">Subscribe Now</button>
+                </div><span class="fs-9 text-secondary-light">Get the latest content in your inbox every week. We don’t spam.</span>
+              </div>
+            </div>
+            <div class="col-lg-7 col-xl-6">
+              <div class="mw-2xl mx-auto">
+                <div class="row">
+                  <div class="col-12 col-sm-6 mb-8 mb-sm-0">
+                    <div class="mw-sm mx-auto py-5 ps-7 pe-12 rounded-3 position-relative overflow-hidden"><img class="position-absolute top-0 start-0 w-100 h-100" src="flaro-assets/images/newsletter/bg-box.png" alt="" style="object-fit: fill;">
+                      <div class="position-relative">
+                        <h6 class="fs-3 mb-2">47k+</h6><span class="d-block fw-semibold">Designer, Developers &amp;</span><span class="fw-smeibold">Marketers</span>
+                        <p class="mt-6 text-secondary">Get the latest content on your inbox of every week. We don’t need to spam.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6">
+                    <div class="mw-sm mx-auto py-5 ps-7 pe-12 rounded-3 position-relative overflow-hidden"><img class="position-absolute top-0 start-0 w-100 h-100" src="flaro-assets/images/newsletter/bg-box.png" alt="" style="object-fit: fill;">
+                      <div class="position-relative">
+                        <h6 class="fs-3 mb-2">12</h6><span class="d-block fw-semibold">Hand-made reports</span><span class="fw-semibold">every week</span>
+                        <p class="mt-6 text-secondary">Get the latest content on your inbox of every week. We don’t need to spam.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        
+      <section class="py-12 py-sm-24 position-relative overflow-hidden"><img class="position-absolute top-0 end-0" src="flaro-assets/images/footers/gradient2.svg" alt="">
+        <div class="container position-relative">
+          <div class="row">
+            <div class="col-12 col-lg-3 mb-16 mb-lg-0"><a class="d-inline-block mb-8" href="#"><img src="flaro-assets/logos/flaro-logo-black-xl.svg" alt=""></a></div>
+            <div class="col-12 col-lg-9">
+              <div class="row">
+                <div class="col-6 col-md-3 mb-16 mb-md-0">
+                  <h6 class="mb-6">Product</h6>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Careers</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">About Us</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Insights</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">PCI Compliance</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Intro Articles</a></li>
+                    <li><a class="btn btn-link p-0 text-secondary" href="#">Pricing</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3 mb-16 mb-md-0">
+                  <h6 class="mb-6">For Developers</h6>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Docs</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Knowledge Base</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">System Status</a></li>
+                    <li><a class="btn btn-link p-0 text-secondary" href="#">Security</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h6 class="mb-6">Resources</h6>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">About</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Leadership</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Press/News</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Careers/Team</a></li>
+                    <li><a class="btn btn-link p-0 text-secondary" href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h6 class="mb-6">Legal</h6>
+                  <ul class="list-unstyled">
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Docs</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">Knowledge Base</a></li>
+                    <li class="mb-4"><a class="btn btn-link p-0 text-secondary" href="#">System Status</a></li>
+                    <li><a class="btn btn-link p-0 text-secondary" href="#">Security</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
 {% endblock %}
